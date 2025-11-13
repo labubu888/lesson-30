@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <title>hi</title>
+    </head>
+    <body>
+       <h2>converting a javascript object into jsob string</h2> 
+       <p id="result"></p>
+       <script>
+        var myObj={name:"jaiannah", age:11, grade:7};
+        var myJSON=JSON.stringify(myObj);
+        var newObj=JSON.parse(myJSON);
+       document.getElementById("result").innerHTML= newObj.name;
+       </script>
+    </body>
+</html>
